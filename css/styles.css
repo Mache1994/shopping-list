@@ -1,0 +1,59 @@
+/*Style from w3 school*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  font-size: 18px;
+  transition: 0.2s;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+ul li.checked {
+  color: #black;
+  text-decoration: line-through;
+}
+
+ul li.checked2 {
+  color: #black;
+  text-decoration: none;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  margin: auto;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+
+.submitButton, .btnCHECK .btnDELETE {
+  background-color: rgba(3.9%, 23.5%, 48.2%, 0.99);
+  display: inline-block;
+  margin-top: 10px;
+  border: none;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.buttons{
+  margin: 0 auto 10px auto;
+  width: 90%; 
+}
